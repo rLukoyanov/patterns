@@ -19,7 +19,10 @@
 
 # 📚 Что внутри репозитория
 
-Сейчас репозиторий содержит **порождающие паттерны (Creational)**.
+Сейчас репозиторий содержит:
+
+- **порождающие паттерны (Creational)**
+- **поведенческие паттерны (Behavioral)**
 
 ## Creational
 
@@ -28,6 +31,14 @@
 - [Factory Method](Creational/Factory%20Method.md) — делегирование создания объектов фабрике.
 - [Prototype](Creational/Prototype.md) — создание через копирование готового объекта.
 - [Singleton](Creational/Singleton.md) — единственный экземпляр с глобальной точкой доступа.
+
+## Behavioral
+
+- [Command](Behavioral/Command.md) — инкапсуляция запроса в отдельный объект-команду.
+- [Observer](Behavioral/Observer.md) — уведомление подписчиков при изменении состояния.
+- [State](Behavioral/State.md) — изменение поведения в зависимости от состояния объекта.
+- [Strategy](Behavioral/Strategy.md) — выбор и замена алгоритма во время выполнения.
+- [Template Method](Behavioral/Template%20Method.md) — общий каркас алгоритма с переопределяемыми шагами.
 
 ---
 
