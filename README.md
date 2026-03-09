@@ -23,6 +23,8 @@
 
 - **порождающие паттерны (Creational)**
 - **поведенческие паттерны (Behavioral)**
+- **структурные паттерны (Structural)**
+- **паттерны конкурентности (Concurrency)**
 
 ## Creational
 
@@ -39,6 +41,22 @@
 - [State](Behavioral/State.md) — изменение поведения в зависимости от состояния объекта.
 - [Strategy](Behavioral/Strategy.md) — выбор и замена алгоритма во время выполнения.
 - [Template Method](Behavioral/Template%20Method.md) — общий каркас алгоритма с переопределяемыми шагами.
+
+## Structural
+
+- [Adapter](Structural/Adapter.md) — адаптация несовместимых интерфейсов.
+- [Composite](Structural/Composite.md) — работа с деревом объектов как с единым интерфейсом.
+- [Decorator](Structural/Decorator.md) — динамическое расширение поведения объекта.
+- [Facade](Structural/Facade.md) — упрощенный интерфейс к сложной подсистеме.
+- [Proxy](Structural/Proxy.md) — контролируемый доступ к объекту через заменитель.
+
+## Concurrency
+
+- [Fan-In Fan-Out](Concurrency/Fan-In%20Fan-Out.md) — распределение задач между воркерами и объединение результатов.
+- [Future Promise](Concurrency/Future%20Promise.md) — отложенное получение результата асинхронной операции.
+- [Pipeline](Concurrency/Pipeline.md) — поэтапная потоковая обработка данных через каналы.
+- [Producer Consumer](Concurrency/Producer%20Consumer.md) — развязка производителей и потребителей через очередь.
+- [Worker Pool](Concurrency/Worker%20Pool.md) — ограниченный пул воркеров для контролируемого параллелизма.
 
 ---
 
